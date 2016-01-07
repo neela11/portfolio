@@ -1,0 +1,151 @@
+/*
+Content
+1. General stuff
+2. Navbar
+3. Main section
+4. About me
+5. References
+6. Contact section
+7. Footer social
+*/
+/*1. General stuff*/
+body {
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+}
+/*2. Navbar*/
+#main-nav{
+    background-color: #da645a;
+    border: 0;
+    box-shadow: 0 0px 15px 2px #da645a;
+}
+#main-nav .navbar-header a.navbar-brand{
+    color: #ffffff;
+    font-weight: 600;
+}
+#main-nav ul li{
+    
+}
+#main-nav ul li a{
+    color: #ffffff;
+}
+
+#main-nav ul li.active a{
+    background: #ffffff;
+    color: #da645a;
+    border-bottom: 2px solid #da645a;
+}
+#image{
+	height: 41em;
+	background-image: url("../img/flower.JPG");
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 3em;
+}
+/*3. Main section*/
+#image h1{
+	padding-top: 8em;
+}
+/*4. About me*/
+#introduction{
+	padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#introduction p{
+	font-size: 1.5em;
+}
+#introduction img{
+    box-shadow: 3px 3px 1.5rem 3px #da645a;
+    opacity: 1;
+}
+#introduction img:hover{
+    opacity: 1;
+}
+/*5. References*/
+#projects{
+	background-color: #fff6f6;
+    padding-top: 7rem;
+    position: relative;
+    display: block;
+}
+#projects > div{
+    height: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+#projects .item{
+    box-shadow: 3px 3px 1.5rem 3px #da645a;
+    opacity: .7;
+}
+#projects .item:hover{
+    opacity: 1;
+}
+#projects .item a{
+    position: relative;
+    display: block;
+    color: #222222;
+}
+#projects .item a:hover{
+    color: #222222;
+    text-decoration: none;
+}
+#projects .item .description{
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+}
+/*6. Contact section*/
+#contact{
+	height: 50rem;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+#contact .map{
+    width: 100%;
+    height: 100%;
+}
+#contact .contact{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #da645a;
+    color: #ffffff;    
+}
+#contact .contact h1{
+    text-transform: uppercase;
+}
+#contact .contact h3{
+    font-weight: 200;
+}
+#contact .contact p{
+    line-height: 0.8;
+}
+#toggle-contact{
+    color: #da645a;   
+}
+#toggle-contact i{
+    color: #da645a;   
+}
+/*7. Footer social*/
+.social{
+    text-align: center;
+    padding: .2rem 0 .5rem 0;
+    background-color: #da645a;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.social .icons{
+    padding: 0;
+}
+.social .icons > li {    
+    display: inline;
+    margin: 1.25rem 5px;    
+    padding: 0.625rem 0;
+    text-align: center;
+}
