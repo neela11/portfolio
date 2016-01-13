@@ -124,8 +124,12 @@ body {
 #contact .contact p{
     line-height: 0.8;
 }
+#contact .contact a{
+    color: white;
+}
 #toggle-contact{
-    color: #da645a;   
+    color: #da645a; 
+
 }
 #toggle-contact i{
     color: #da645a;   
@@ -150,4 +154,5 @@ body {
     margin: 1.25rem 5px;    
     padding: 0.625rem 0;
     text-align: center;
+    color: white;
 }
